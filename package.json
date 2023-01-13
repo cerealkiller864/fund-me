@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@chainlink/contracts": "^0.6.0",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2",
+    "solc": "^0.8.8"
+  },
+  "scripts": {
+    "compile": "yarn solcjs --bin --abi --include-path ./node_modules --base-path . -o . Fund.sol",
+    "compile2": "yarn solcjs --bin --abi --include-path ./node_modules --base-path . -o . Price.sol",
+    "deploy": "node deploy.js"
+  }
+}

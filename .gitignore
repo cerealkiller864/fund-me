@@ -1,0 +1,4 @@
+*.abi
+*.bin
+.env
+node_modules
